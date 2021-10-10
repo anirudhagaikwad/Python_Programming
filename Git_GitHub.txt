@@ -13,6 +13,8 @@
 10)$> git push URL_OF_Repositary
 
 
+URL_OF_Repositary = https://anirudhagaikwad@github.com/anirudhagaikwad/Python_Seed.git
+
 
 ########Multiple GitHub HTTPS accounts on Windows#########
 
@@ -25,7 +27,9 @@ git config --global credential.github.com.useHttpPath true
 3) provide your username, password once again for each repo when you are prompted for your credentials - this is the last time you need to do that
 
 
-
+##### Students you can download course material from this github link ###
+https://github.com/anirudhagaikwad/Python_Seed
+https://github.com/anirudhagaikwad/Python_Seed.git
 	
 
 
