@@ -1,0 +1,72 @@
+CREATE DATABASE stddb;
+USE stddb;
+CREATE TABLE student(student_id INT,name VARCHAR(100),age INT(2));
+SHOW TABLES;
+ALTER TABLE student ADD(address VARCHAR(255));
+ALTER TABLE student ADD(fname VARCHAR(255),mname VARCHAR(255));
+ALTER TABLE student MODIFY(fname VARCHAR(100),mname VARCHAR(100));
+ALTER TABLE student MODIFY(FNAME VARCHAR(100));
+ALTER TABLE student RENAME address TO location;
+ALTER TABLE student RENAME COLUMN address TO location;
+ALTER TABLE student DROP(address);
+INSERT INTO student VALUES(1, "Clark", 15,"solapur","xyz","abc");
+UPDATE student SET age=20 WHERE student_id=1'
+UPDATE student SET age=22,address="Pune" WHERE student_id=1;
+SELECT * FROM student;
+DELETE FROM student WHERE student_id=1';
+DROP TABLE student;
+DROP DATABASE stddb;
+
+
+
+-- create
+CREATE TABLE EMPLOYEE (
+  empId INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  dept TEXT NOT NULL
+);
+
+-- insert
+INSERT INTO EMPLOYEE VALUES (0001, 'Clark', 'Sales');
+INSERT INTO EMPLOYEE VALUES (0002, 'Dave', 'Accounting');
+INSERT INTO EMPLOYEE VALUES (0003, 'Ava', 'Sales');
+
+-- fetch 
+SELECT * FROM EMPLOYEE WHERE dept = 'Sales';
+
+
+
+DDL - DATA DEFINATION LANGUAGE - CREATE ,ALTER,TRUNCAT,DROP,RENAME
+
+DML - DATA MANIPULATION LANGUAGE - INSERT ,UPDATE,DELETE,MERGE
+
+TCL - TRANSACTION CONTROL LANGUAGE - COMMIT,ROLLBACK,SAVEPOINT 
+
+DCL - DATA CONTROL LANGUAGE - GRANT ,REVOKE 
+
+DQL - DATA QUERY LANGUAGE - SELECT 
+
+
+PRIMARY KEY , FORAIGN KEY 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
