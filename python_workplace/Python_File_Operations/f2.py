@@ -1,0 +1,5 @@
+c=open("te.txt",'r+')
+c.write("Anirudha")
+z=str(c.read())
+print(z)
+c.close()

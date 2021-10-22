@@ -1,0 +1,16 @@
+Must be solve all questions and deploy all programms on github - 
+before end of Day - 16Oct2021 
+To write Program use pakages,control flow statements,functions as per Program requirement.
+
+
+1) Reverse a String and print it on console
+   "Python Skills" .
+
+2) Assign Date to x variable in DD-MM-YYYY format
+   extract and print Year from Date
+
+3)In a small company, the average salary of three employees is Rs1000 per week. If one employee earns Rs1100 and other earns Rs500, how much will the third employee earn? Solve by using Python programm
+
+4) Write Program - convert a percentage to a fraction (To convert a percentage into fraction let say 30% to a fraction)
+
+5)Write Program - A train 340 m long is running at a speed of 45 km/hr. what time will it take to cross a 160 m long tunnel?

@@ -1,0 +1,10 @@
+# Python program to read first n lines of a file.
+def file_read_from_head():
+       fname=input("\n Enter File Name :")
+	   print()
+	   nlines=int(input("Lines/Words :"))
+	           from itertools import islice
+        with open(fname) as f:
+                for line in islice(f, nlines):
+                        print(line)
+file_read_from_head()

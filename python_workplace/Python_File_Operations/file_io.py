@@ -1,0 +1,5 @@
+c=open('te.txt','r+')
+c.write("hello how are you")
+z=c.read()
+print(z)
+c.close()
