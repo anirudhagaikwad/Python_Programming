@@ -1,5 +1,5 @@
 1) Write a program to print the area of Oval,Triangle,Rectangle,Pentagon,Hexagon,Trapezium,& Circle
-in this program you must be use package & modules,functions,exceptions,user interaction & database.  
+in this program you must be use package  modules,functions,exceptions,user interaction & database.  
 
 
 2)Write a program to generate employee ID-Card(image not required,id card show on console) 

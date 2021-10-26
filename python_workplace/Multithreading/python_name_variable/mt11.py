@@ -1,0 +1,3 @@
+# __name__ is a built-in variable in python that stores the name of the current module/script being executed. If the current module is executing then the __name__ variable is assigned the value __main__ otherwise it simply contains the name of the module or script.
+
+# if __name__ == __main__ To specify some code in any python script which should be executed only when that script is executed directly, we can use the if statement with the condition __name__ == __main__
