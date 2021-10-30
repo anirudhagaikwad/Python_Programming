@@ -1,0 +1,23 @@
+1) An electricity board charges the following rates to domestic users to discoureage large consumption of energy:
+for first 100 units - 6Rs. per unit
+for next 200 units - 8Rs per unit
+beyond 300 units - 12Rs per unit
+
+additional subcharge is 15% of total unit amount
+
+- take username and monthly consumsution unit from user and generate bill and print on console
+
+
+2) folowing is figures for series of test matches
+
+Name          Runs       Innings      Times-not-out  
+
+kohali        8430        230             18
+dhavan        4200        130              9
+rahul         3350        105             11
+
+write a program read figure set to calculate batting averages and print complete table including averages. 
+
+3) Solve RegEx - pdf is attached
+- matching-digits-non-digit-character.pdf
+- matching-range-of-characters.pdf    
