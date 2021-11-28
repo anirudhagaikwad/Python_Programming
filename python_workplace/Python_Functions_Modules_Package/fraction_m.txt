@@ -1,0 +1,4 @@
+from fractions import Fraction
+str(Fraction(0.25))
+
+# Output 1/4
