@@ -1,0 +1,48 @@
+####### Python Dynamic Content Feeding through Admin ##########
+
+0) To Check Help
+~ python manage.py help
+
+1) Install PostgreSql and install Driver
+~ pip install psycopg2-binary
+
+--> set following setting in setting.py
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'vtwebsite',
+        'USER': 'postgres',
+        'PASSWORD': '123',
+        'HOST': 'localhost',
+    }
+}
+
+2)Set app config in settings.py
+
+INSTALLED_APPS = [
+    'app1.apps.App1Config',
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+]
+
+3) Make Migrations
+~  python manage.py makemigrations
+
+4) create tables from models in SQL
+~ python manage.py sqlmigrate appname version
+Ex--> python manage.py sqlmigrate website 0001
+
+5)Migrate all SQL in DBMS
+~ python manage.py migrate
+
+6)Create Super user for Admin Login
+~python manage.py createsuperuser
+--> it will ask username,email and password
+
+7)Collect Static files in Django
+~python manage.py collectstatic

@@ -1,0 +1,70 @@
+#A Django app, which can easily be deployed to Heroku.
+
+#Before starting heroku hosting your system should contain git installed on your system
+
+1. if not then goto this site, download and install it.
+-> https://git-scm.com/download/
+
+2.run this commands on command prompt(compulsory)
+-> pip install gunicorn
+   pip install django-heroku
+
+3. Make a copy of your project
+
+4. Make sure your virtual environment is activated.
+
+5. Add your dependencies to requirements.txt by typing in the terminal,in your project directory parallel to it
+->   $ pip freeze > requirements.txt
+
+6. Add this in settings.py
+-> STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+7. Make a Heroku account
+-> https://signup.heroku.com/
+
+8. Download Heroku CLI
+-> https://devcenter.heroku.com/articles/heroku-cli#download-and-install
+
+9. Configure Django Heroku
+-> 	 create a file named Procfile without extension in parallel to project  
+     folder(file name is Case Sensitive) 
+     and it should contain 
+	 -> web: gunicorn myproject.wsgi 
+	 (myproject - your project name)
+	 
+10. Add the following import statement to the top of settings.py:
+->	 import django_heroku 
+
+11. Add the following statement in settings.py:
+->	STATIC_ROOT = os.path.join(BASE_DIR, 'static') 
+
+12.	Then add the following to the bottom of settings.py:
+->	# Activate Django-Heroku.
+	django_heroku.settings(locals())
+	
+11. In your terminal, type in
+->  $ git init	
+	$ git add .
+	$ git commit -m "first commit"
+	$ heroku login
+	$ heroku create app_name
+	$ heroku config:set DISABLE_COLLECTSTATIC=1
+	$ git push heroku master
+	$ heroku run python manage.py migrate
+	$ heroku open
+
+# PS: if Heroku isn't recognized as a command, please close your terminal and editor and then re-open it.
+
+DEBUG = False in settings.py
+
+ALLOWED_HOSTS = ['https://your_app_name.herokuapp.com', 'localhost', '127.0.0.1'] in settings.py
+
+#If you make edits, then just type in the terminal,
+
+ $ git add .
+ $ git commit -m "edit"
+ $ git push heroku master
+
+
+
+https://mywebsitedemo.herokuapp.com/
