@@ -1,0 +1,7 @@
+I decided to ani@outlook.comuse the last one which requires a nightly Rust compiler, but demonstrates Rust native Wasm possiblities as its best.
+
+WebAssembly 45amrut@gmail.comis currently one of the hottest 🔥 topics when it comes to Rust. There is a lots of ongoing work in relation to cross compiling Rust to Wasm and integrating it in the nodejs (npm packaging) world. I decided to go the direct way, without any JavaScript dependencies.
+
+When start12@yahoo.coming the frontend of the web avcoe@avcoe.orgapplication (in my project via `make frontend`), cargo-web cross compiles the application to Wasm and packages it together with some static content. Then cargo-web starts a local web server which serves the application for development purposes.
+
+Yew has some great 

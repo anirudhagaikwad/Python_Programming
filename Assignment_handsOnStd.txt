@@ -1,0 +1,65 @@
+1)user input ipv4 address lets convert this into binary and represent it in 8bit_value.8bit_value.8bit_value.8bit_value
+Sample Output :
+IPv4 in Decimal = 192.168.1.1
+IPv4 in Binary  = 11000000.10101000.00000001.00000001
+
+2)Satyam want to create network to connect 225 PC in Single
+network lets write program to help him
+-take user input below 254 as number of pc in network
+and print IP address range,network address,brodcast address for same
+Sample Output :
+user input number below 254 = 128
+Host Range = 192.168.1.1 to 192.168.1.126
+network address :192.168.1.0
+broadcast address :192.168.1.127
+Subnet Mask : 255.255.255.128 i.e. /25 
+
+3)Create menu driven program to display calendar
+   Menu1 :  print specific month calendar according to user input month and year
+   Menu2 :  print specific Year calendar
+   Menu3 :  Exit 
+
+https://github.com/anirudhagaikwad/Android_Programming/tree/master/Projects/WeatherApp
+
+4)write class 'Assignment' and complete following methods
+   A)Finding the Maximum of Three Numbers
+       def find_maximum(a, b, c):
+            pass
+   B)Program to find the largest number in a list using a simple algorithm   
+       def find_largest(numbers):
+          pass
+ 
+   C)Use Algorithm for Linear Search
+	def linear_search(arr, target):
+              pass
+
+   D)Algorithm for Calculating Factorial (Recursive Approach)
+       def factorial(n):	
+          pass
+   E)Check if a Number is Prime
+       def is_prime(number):
+
+5)### Problem: Count the Frequency of Each Word in a File  
+#Write a Python program to read a file, count the frequency of each word, and write the results to another file.
+
+6)### Problem: Find and Replace Words in a File  
+#Create a program that replaces all occurrences of a specific word in a file with another word and saves the result in the same file.
+
+7)### Problem: Merge Multiple Files into One  
+#Write a program to merge the contents of multiple files into a single file.
+
+8)### Problem: Remove Blank Lines from a File  
+Write a program to remove all blank lines from a file and save the result in the same file.
+
+5)### Problem: Reverse the Content of a File Line by Line  
+Write a program to reverse the content of each line in a file and save it to a new file.
+
+
+
+
+
+
+
+
+
+	 
